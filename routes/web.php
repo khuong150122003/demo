@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TimberController;
+use App\Http\Controllers\Frontend_controler;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +15,8 @@ use App\Http\Controllers\TimberController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [Frontend_controler::class, 'index']);
+
 Route::get('timber-list', [TimberController::class, 'index']);
 Route::get('add-timber', [TimberController::class, 'addTimber']);
 Route::post('save-timber', [TimberController::class, 'saveTimber']);
