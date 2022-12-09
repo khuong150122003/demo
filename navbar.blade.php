@@ -9,12 +9,12 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="gettemplates.co" />
 
-	<!-- 
+	<!--
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
+	FREE HTML5 TEMPLATE
 	DESIGNED & DEVELOPED by FreeHTML5.co
-		
+
 	Website: 		http://freehtml5.co/
 	Email: 			info@freehtml5.co
 	Twitter: 		http://twitter.com/fh5co
@@ -36,26 +36,26 @@
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
-	
+    <link rel="stylesheet" type="text/css" href="{{asset('asset/css/style.css')}}">
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('asset/css/animate.css')}}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('asset/css/icomoon.css')}}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+	<link rel="stylesheet"  type="text/css" href="{{asset('asset/css/bootsrap.css')}}">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('asset/flexslide.css')}}">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="{{asset ('css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset ('css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset ('asset/css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset ('asset/css/owl.theme.default.min.css')}}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{asset ('css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset ('asset/css/style.css')}}">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="asset/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -102,10 +102,11 @@
 						    </div>
 						</li>
 						<li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+                        <li class="icon-user"></li>
 					</ul>
 				</div>
 			</div>
-			
+
 		</div>
 	</nav>
 
@@ -128,3 +129,4 @@
     </body>
 
 </html>
+
