@@ -39,9 +39,9 @@
 
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{ asset('asset/css/animate.css') }}">
+	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{ asset('asset/css/icomoon.css')}}">
+	<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}">
 
@@ -109,6 +109,7 @@
 		</div>
 	</nav>
 
+	
         <!-- jQuery -->
 	<script src="{{ asset('asset/js/jquery.min.js') }}"></script>
 	<!-- jQuery Easing -->
