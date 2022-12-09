@@ -8,6 +8,6 @@ class Frontend_controler extends Controller
 {
     public function index()
     {
-        return view ('inc/admin/navbar');
+        return view ('inc/admin');
     }
 }
