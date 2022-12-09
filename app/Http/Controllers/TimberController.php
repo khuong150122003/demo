@@ -78,5 +78,6 @@ class TimberController extends Controller
         return redirect() ->back() ->with('success', 'Timber Deleted Successfully');
 
     }
+    
 
 }
