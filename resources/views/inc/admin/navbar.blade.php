@@ -43,20 +43,19 @@
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/flexslider.css')}}">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="{{asset ('css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset ('css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/owl.theme.default.min.css')}}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{asset ('css/style.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/style.css')}}">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -69,12 +68,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Shop.</a></div>
+					<div id="fh5co-logo"><a href="/">Shop.</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
 						<li class="has-dropdown">
-							<a href="product.html">Shop</a>
+							<a href="/">Shop</a>
 							<ul class="dropdown">
 								<li><a href="single.html">Single Shop</a></li>
 							</ul>
@@ -110,22 +109,25 @@
 		</div>
 	</nav>
 
+	
         <!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="{{ asset('asset/js/jquery.min.js') }}"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="{{ asset('asset/js/jquery.easing.1.3.js') }}"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="{{ asset('asset/js/bootstrap.min.js') }}"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="{{ asset('asset/js/jquery.waypoints.min.js') }}"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="{{ asset('asset/js/owl.carousel.min.js') }}"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="{{ asset('jasset/s/jquery.countTo.js') }}"></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="{{ asset('asset/js/jquery.flexslider-min.js') }}"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="{{ asset('asset/js/main.js') }}"></script>
+	<script src="{{ asset('asset/js/modernizr-2.6.2.min.js') }}"></script>
+
     </body>
 
 </html>
