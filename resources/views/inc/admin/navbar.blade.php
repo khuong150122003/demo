@@ -39,21 +39,21 @@
 
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+	<link rel="stylesheet" href="{{('asset/css/animate.css')}}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/icomoon.css')}}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/flexslider.css')}}">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="{{asset ('css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset ('css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/owl.theme.default.min.css')}}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{asset ('css/style.css')}}">
+	<link rel="stylesheet" href="{{asset ('asset/css/style.css')}}">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -110,6 +110,7 @@
 		</div>
 	</nav>
 
+	
         <!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
