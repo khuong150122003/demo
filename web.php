@@ -22,13 +22,16 @@ Route::post('save-timber', [TimberController::class, 'saveTimber']);
 Route::get('edit-timber/{id}', [TimberController::class, 'editTimber']);
 Route::post('update-timber', [TimberController::class, 'updateTimber']);
 Route::get('delete-timber/{id}', [TimberController::class, 'deleteTimber']);
-
+Route::get('/login', [CustomController::class, 'login']);
+Route::get('/registration', [CustomController::class, 'registration']);
 Route::get('shop', [Frontend_controler::class, 'index']);
 Route::get('product', [Frontend_controler::class, 'product']);
 Route::get('about', [Frontend_controler::class, 'about']);
 Route::get('single', [Frontend_controler::class, 'single']);
 Route::get('contact', [Frontend_controler::class, 'contact']);
 Route::get('service', [Frontend_controler::class, 'service']);
+Route::get('admin', [Frontend_controler::class, 'admin']);
+
 
 
 

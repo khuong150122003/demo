@@ -30,4 +30,8 @@ class Frontend_controler extends Controller
   {
     return view('inc/admin/contact');
   }
+  public function admin()
+  {
+      return view ('admin/admin');
+  }
 }
