@@ -856,6 +856,7 @@
             <!-- end footer -->
             <!-- ============================================================== -->
         </div>
+		 
 	</div>
 
     
@@ -878,7 +879,7 @@
     <script src="{{asset ('assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>')}}">
     <script src="{{asset ('assets/vendor/charts/c3charts/C3chartjs.js"></script>')}}">
     <script src="{{asset ('assets/libs/js/dashboard-ecommerce.js"></script>')}}">
-	
+	<script src="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')}}"></script>
 
     </body>
 
