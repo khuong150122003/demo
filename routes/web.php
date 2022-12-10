@@ -1,9 +1,8 @@
 <?php
-
+use App\Http\Controllers\CustomController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TimberController;
 use App\Http\Controllers\Frontend_controler;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +22,8 @@ Route::post('save-timber', [TimberController::class, 'saveTimber']);
 Route::get('edit-timber/{id}', [TimberController::class, 'editTimber']);
 Route::post('update-timber', [TimberController::class, 'updateTimber']);
 Route::get('delete-timber/{id}', [TimberController::class, 'deleteTimber']);
+Route::get('/login', [CustomController::class, 'login']);
+Route::get('/registration', [CustomController::class, 'registration']);
 
 
 

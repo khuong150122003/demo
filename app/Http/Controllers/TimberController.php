@@ -19,24 +19,19 @@ class TimberController extends Controller
 
         $request->validate([
             'name' => 'required',
-            'email' => 'required | email',
+            'price' => 'required | price',
             'image' => 'required',
-            'phone' => 'required',
-            'address' => 'required',
         ]);
 
         $name = $request ->name;
-        $email = $request ->email;
+        $price = $request ->price;
         $image = $request ->image;
-        $phone = $request ->phone;
-        $address = $request ->address;
+
 
         $stu = new Timber();
         $stu->name = $name;
-        $stu->email = $email;
+        $stu->price = $price;
         $stu->image = $image;
-        $stu->phone = $phone;
-        $stu->address = $address;
         $stu->save();
 
         return redirect() ->back() ->with('success', 'Timber Added Successfully');
@@ -51,24 +46,18 @@ class TimberController extends Controller
 
         $request->validate([
             'name' => 'required',
-            'email' => 'required | email',
+            'price' => 'required | price',
             'image' => 'required',
-            'phone' => 'required',
-            'address' => 'required',
         ]);
         $id = $request ->id;
         $name = $request ->name;
-        $email = $request ->email;
+        $price = $request ->price;
         $image = $request ->image;
-        $phone = $request ->phone;
-        $address = $request ->address;
 
         Timber::where('id','=',$id)->update([
             'name'=>$name,
-            'email'=>$email,
+            'price'=>$price,
             'image'=>$image,
-            'phone'=>$phone,
-            'address'=>$address
         ]);
         return redirect() ->back() ->with('success', 'Timber Updated Successfully');
 
@@ -80,3 +69,4 @@ class TimberController extends Controller
     }
 
 }
+

@@ -25,9 +25,8 @@
                     <thead><tr>
                         <th>#</th>
                         <th>name</th>
-                        <th>email</th>
-                        <th>phone</th>
-                        <th>address</th>
+                        <th>price</th>
+                        <th>image</th>
                         <th>action</th>
                     </tr></thead>
                     <tbody>
@@ -39,10 +38,9 @@
                             <tr>
                                 <td>{{$i++}}</td>
                                 <td>{{$stu->name}}</td>
-                                <td>{{$stu->email}}</td>
-                                <td>{{$stu->phone}}</td>
-                                <td>{{$stu->address}}</td>
-                                <td><a href="{{url('edit-timber/'.$stu->id)}}" class="btn btn-primary">Edit</a> | <a href="{{url('delete-timber/'.$stu->id)}}" class="btn btn-danger">Delete</a></td>
+                                <td>{{$stu->price}}</td>
+                                <td>{{$stu->image}}</td>
+                                <td><a href="{{url('edit-timber/'.$stu->id)}}" class="btn btn-primary">Update</a> | <a href="{{url('delete-timber/'.$stu->id)}}" class="btn btn-danger">Delete</a></td>
                             </tr>
                         @endforeach
                     </tbody>

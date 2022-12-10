@@ -9,3 +9,5 @@ class Timber extends Model
 {
     use HasFactory;
 }
+
+

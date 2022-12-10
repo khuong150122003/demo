@@ -30,27 +30,18 @@
                         @enderror
                     </div>
                     <div class="md-3">
-                        <label class="form-lebel">email</label>
-                        <input type="text" class="form-control" name="email" placeholder="Enter Email" value="{{old('email')}}">
-                        @error('email')
+                        <label class="form-lebel">price</label>
+                        <input type="text" class="form-control" name="price" placeholder="Enter Price" value="{{old('price')}}">
+                        @error('price')
                         <div class ="alert alert-danger" role="alert">
                             {{$message}}
                          </div>
                         @enderror
                     </div>
-                    <div class="md-3">
-                        <label class="form-lebel">phone</label>
-                        <input type="text" class="form-control" name="phone" placeholder="Enter Phone" value="{{old('phone')}}">
-                        @error('phone')
-                        <div class ="alert alert-danger" role="alert">
-                            {{$message}}
-                         </div>
-                        @enderror
-                    </div>
-                    <div class="md-3">
-                        <label class="form-lebel">address</label>
-                        <textarea type="text" class="form-control" name="address" placeholder="Enter Address">{{old('name')}}</textarea>
-                        @error('address')
+                    <div class="mb-3">
+                         <label for="formFileSm" class="form-label">image</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        @error('image')
                         <div class ="alert alert-danger" role="alert">
                             {{$message}}
                          </div>

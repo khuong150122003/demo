@@ -31,27 +31,9 @@
                         @enderror
                     </div>
                     <div class="md-3">
-                        <label class="form-lebel">email</label>
-                        <input type="text" class="form-control" name="email" placeholder="Enter Email" value="{{$data->email}}">
-                        @error('email')
-                        <div class ="alert alert-danger" role="alert">
-                            {{$message}}
-                         </div>
-                        @enderror
-                    </div>
-                    <div class="md-3">
-                        <label class="form-lebel">phone</label>
-                        <input type="text" class="form-control" name="phone" placeholder="Enter Phone" value="{{$data->phone}}">
-                        @error('phone')
-                        <div class ="alert alert-danger" role="alert">
-                            {{$message}}
-                         </div>
-                        @enderror
-                    </div>
-                    <div class="md-3">
-                        <label class="form-lebel">address</label>
-                        <textarea type="text" class="form-control" name="address" placeholder="Enter Address">{{$data->address}}</textarea>
-                        @error('address')
+                        <label class="form-lebel">price</label>
+                        <input type="text" class="form-control" name="price" placeholder="Enter Price" value="{{$data->price}}">
+                        @error('price')
                         <div class ="alert alert-danger" role="alert">
                             {{$message}}
                          </div>
