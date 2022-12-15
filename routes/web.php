@@ -24,8 +24,12 @@ Route::post('update-timber', [TimberController::class, 'updateTimber']);
 Route::get('delete-timber/{id}', [TimberController::class, 'deleteTimber']);
 Route::get('/login', [CustomController::class, 'login']);
 Route::get('/registration', [CustomController::class, 'registration']);
+Route::get('/register-user', [CustomController::class, 'registerUser'])->name('register-user');
+Route::middleware('EnsureTokenIsValid')->group(function () {
 
+    // Route liên quan đến Admin
 
+});
 
 
 

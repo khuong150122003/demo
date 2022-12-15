@@ -16,10 +16,10 @@ return new class extends Migration
         Schema::create('timbers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email');
+            $table->string('price');
             $table->string('image');
-            $table->string('phone');
-            $table->text('address');
+            $table->string('email')->unique();
+            $table->string('password');
             $table->timestamps();
         });
     }
